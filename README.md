@@ -1,7 +1,7 @@
 # card-validator
 
-[![CI](https://github.com/jrode/card-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/jrode/card-validator/actions/workflows/ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/jrode/card-validator/badge.svg?branch=main)](https://coveralls.io/github/jrode/card-validator?branch=main)
+[![CI](https://github.com/jtrode/card-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/jtrode/card-validator/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/lightweight-card-validator)](https://www.npmjs.com/package/lightweight-card-validator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org)
 
@@ -53,15 +53,18 @@ card-validator/
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/jrode/card-validator.git
-cd card-validator
+npm install lightweight-card-validator
+```
 
-# Install development dependencies
+Or, to work on the project locally:
+
+```bash
+git clone https://github.com/jtrode/card-validator.git
+cd card-validator
 npm install
 ```
 
-> **Note:** This library has **zero runtime dependencies**. `npm install` only installs tooling (Jest, ESLint).
+> **Note:** This library has **zero runtime dependencies**. `npm install` only installs dev tooling (Jest, ESLint).
 
 ---
 

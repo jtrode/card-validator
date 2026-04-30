@@ -1,9 +1,17 @@
 {
-  "name": "card-validator",
+  "name": "lightweight-card-validator",
   "version": "1.0.0",
   "description": "Lightweight, zero-dependency Node.js library for validating payment card data — Luhn algorithm, card type detection, expiration date, and CVV validation.",
   "type": "module",
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watch",
@@ -18,8 +26,16 @@
     "payment",
     "validation"
   ],
-  "author": "jrode",
+  "author": "jtrode",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtrode/card-validator.git"
+  },
+  "homepage": "https://github.com/jtrode/card-validator#readme",
+  "bugs": {
+    "url": "https://github.com/jtrode/card-validator/issues"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
